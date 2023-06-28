@@ -1,3 +1,24 @@
-site_name: My Docs
+# Project information
+site_name: OI Wiki
+site_url: https://oi.lyccrius.site
+site_author: Lyccrius
+site_description: >-
+  Lyccrius's OI Wiki
+
+# Repository
+repo_name: 'lyccrius/oi'
+repo_url: 'https://github.com/lyccrius/oi'
+
+# Copyright
+copyright: 'Copyright &copy; 2023 - 2023 Lyccrius'
+
+# Configuration
 theme:
   name: material
+  language: 'zh'
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+# Page tree
+nav:
