@@ -2,8 +2,7 @@
 site_name: OI Wiki
 site_url: https://oi.lyccrius.site
 site_author: Lyccrius
-site_description: >-
-  Lyccrius's OI Wiki
+site_description: Lyccrius's OI Wiki
 
 # Repository
 repo_name: 'lyccrius/oi'
@@ -19,6 +18,46 @@ theme:
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
+  favicon: 
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.instant
+  icon:
+    logo: 'material/school-outline'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+# Customization
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 # Page tree
 nav:
+  - 简介:
+    - Getting Started: index.md
+  - 算法基础: basic/index.md
+  - 搜索: search/index.md
+  - 动态规划: dp/index.md
+  - 数据结构: ds/index.md
