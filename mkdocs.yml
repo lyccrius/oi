@@ -18,7 +18,7 @@ theme:
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
-  favicon: 
+  favicon: 'favicon.ico'
   features:
     - content.code.copy
     - navigation.tabs
