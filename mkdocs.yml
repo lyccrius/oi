@@ -18,11 +18,13 @@ theme:
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
-  favicon: 'favicon.ico'
+  favicon: 'favicon.png'
   features:
     - content.code.copy
-    - navigation.tabs
     - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.indexes
   icon:
     logo: 'material/school-outline'
   palette:
@@ -55,5 +57,35 @@ extra_css:
 
 # Page tree
 nav:
-  - 简介:
-    - Getting Started: index.md
+  - 首页:
+    - 开始: index.md
+  - 算法基础:
+    - basic/index.md
+  - 搜索:
+    - search/index.md
+  - 动态规划:
+    - dp/index.md
+  - 字符串:
+    - string/index.md
+  - 数学:
+    - math/index.md
+  - 数据结构:
+    - ds/index.md
+  - 图论:
+    - graph/index.md
+  - 计算几何:
+    - geometry/index.md
+  - 杂项:
+    - misc/index.md
+  - 题库: 
+    - problemset/index.md
+    - Luogu: 
+      - problemset/luogu/index.md
+    - LibreOJ: 
+      - problemset/loj/index.md
+    - Universal Online Judge: 
+      - problemset/uoj/index.md
+    - AtCoder:
+      - problemset/at/index.md
+    - Codeforces:
+      - problemset/cf/index.md

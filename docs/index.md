@@ -1,4 +1,4 @@
-title: OI Wiki
+title: OI Tricky
 
 # Welcome to MkDocs
 
