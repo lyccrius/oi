@@ -1,19 +1,9 @@
 title: OI Tricky
 
-# Welcome to MkDocs
+## 欢迎来到 **OI Tricky**！
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**OI**（Olympiad in Informatics，信息学奥林匹克竞赛）在中国起源于 1984 年，是五大高中学科竞赛之一。
 
-## Commands
+**OI Tricky** 致力于成为一个免费开放且持续更新的 **编程竞赛（competitive programming）** 知识整合站点，大家可以在这里获取与竞赛相关的、有趣又实用的知识。我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛中涉及到的知识。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本项目受 [OI Wiki](https://oi-wiki.org/) 的启发，在编写过程中参考了诸多资料，在此一并致谢。
