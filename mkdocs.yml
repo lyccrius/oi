@@ -64,13 +64,13 @@ nav:
   - 搜索:
     - search/index.md
   - 动态规划:
-    - dp/index.md
+    - dynamic-programming/index.md
   - 字符串:
     - string/index.md
   - 数学:
     - math/index.md
   - 数据结构:
-    - ds/index.md
+    - data-structure/index.md
   - 图论:
     - graph/index.md
   - 计算几何:
