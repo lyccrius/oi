@@ -73,6 +73,12 @@ nav:
     - data-structure/index.md
   - 图论:
     - graph/index.md
+    - 二分图:
+      - graph/bipartite-graph/index.md
+      - 最大匹配: graph/bipartite-graph/maximum-matching.md
+      - 最大权匹配: graph/bipartite-graph/maximum-weight-matching.md
+      - 最小点覆盖: graph/bipartite-graph/minimum-vertex-cover.md
+      - 最大独立集: graph/bipartite-graph/maximum-independent-set.md
   - 计算几何:
     - geometry/index.md
   - 杂项:
